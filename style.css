@@ -135,4 +135,67 @@ label{
     margin-right: 5px;
 }
 
+.dgv{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
 
+.resultado {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 800px;
+}
+.titulos{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    width: inherit;
+    background-color: #248;
+    color: white;
+}
+
+.titulo{
+    border-right: 2px solid #ddd;
+    padding: 5px;
+}
+
+.dados{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: inherit;
+}
+.linhadados{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    width: inherit;
+    background-color: white;
+}
+
+.coluna{
+    padding: 5px;
+}
+
+.c1{
+    width: 10%;
+}
+.c2{
+    width: 40%;
+}
+.c3{
+    width: 40%;
+}
+.c4{
+    width: 40%;
+}
+.c5{
+    width: 40%;
+}
