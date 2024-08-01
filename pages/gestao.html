@@ -7,7 +7,66 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>gestão</h1>
+
+    <div id="fundopopup" class="fundopopup ocultar">
+
+        <div id="janelapopup" class="janelapopup">
+            <div id="titulopopup" class="titulopopup">Editar Contato</div>
+            <div id="principalpopup" class="principalpopup">
+                <div class="campoForm">
+                    <label>Id</label>
+                    <input type="text" name="f_id" id="f_id" readonly style="cursor: not-allowed;">
+                </div>
+                <div class="campoForm">
+                    <label>Nome</label>
+                    <input type="text" name="f_nome" id="f_nome">
+                </div>
+                <div class="campoForm">
+                    <label>Telefone</label>
+                    <input type="text" name="f_celular" id="f_celular">
+                </div>
+                <div class="campoForm">
+                    <label>E-Mail</label>
+                    <input type="text" name="f_email" id="f_email">
+                </div>
+                <div class="campoForm">
+                    <label>Data de nascimento</label>
+                    <input type="text" name="f_dtnasc" id="f_dtnasc">
+                </div>
+            </div>
+            <div id="rodapepopup" class="rodapepopup">
+                <button class="btn_geral" id="btn_editar">Editar</button>
+                <button class="btn_geral" id="btn_cancelar">Cancelar</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="dgv" class="dgv">
+    
+        <div id="resultado" class="resultado">
+            <div id="titulos" class="titulos">
+                <div id="" class="titulo c1">Id</div>
+                <div id="" class="titulo c2">Nome</div>
+                <div id="" class="titulo c3">Celular</div>
+                <div id="" class="titulo c4">E-Mail</div>
+                <div id="" class="titulo c5">data</div>
+                <div class="titulo c6">Operações</div>
+            </div>
+    
+            <div id="dados" class="dados">
+                <!-- <div class="linhadados">
+                    <div id="" class="coluna c1">Id</div>
+                    <div id="" class="coluna c2">Nome</div>
+                    <div id="" class="coluna c3">Celular</div>
+                    <div id="" class="coluna c4">E-Mail</div>
+                    <div id="" class="coluna c5">data</div>
+                    <div class="titulo c6">Operações</div>
+                </div> -->
+            </div>
+
+        </div>
+</div>
 
     <script src="../scripts/gestao.js"></script>
 </body>
